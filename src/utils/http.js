@@ -1,6 +1,6 @@
 import { QueryClient } from "@tanstack/react-query";
 
-const API_URL = process.env.API_URL;
+const API_URL = import.meta.env.API_URL;
 export const queryClient = new QueryClient();
 
 export async function fetchEvents({ signal, searchTerm, max }) {

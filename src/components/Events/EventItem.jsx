@@ -8,7 +8,7 @@ export default function EventItem({ event }) {
   });
   return (
     <article className="event-item">
-      <img src={`${process.env.API_URL}/${event.image}`} alt={event.title} />
+      <img src={`${import.meta.env.API_URL}/${event.image}`} alt={event.title} />
       <div className="event-item-content">
         <div>
           <h2>{event.title}</h2>
