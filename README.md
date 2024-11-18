@@ -8,7 +8,7 @@
 - **Search Functionality**: The homepage includes a search bar to help users find specific events.
 - **Event Details Page**: Users can view more information about an event by clicking the "View Details" button.
 - **Create Event Form**: A form for users to add new events. Currently, users can only select images from a provided set.
-- **Backend**: A simple Node.js backend manages event data using the file system module.
+- **[Backend](https://github.com/atulkkale/event-verse-backend)**: A simple Node.js backend manages event data using the file system module.
 
 ## Technologies Used
 
@@ -16,7 +16,7 @@
 - **React.js**: For building an interactive user interface.
 - **TanStack Query**: For efficient data fetching and state management.
   
-**Backend**:
+**[Backend](https://github.com/atulkkale/event-verse-backend)**:
 - **Node.js**: A lightweight backend for managing event data.
 - **File System Module**: Used to store and retrieve event data.
 
