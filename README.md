@@ -8,7 +8,7 @@
 - **Search Functionality**: The homepage includes a search bar to help users find specific events.
 - **Event Details Page**: Users can view more information about an event by clicking the "View Details" button.
 - **Create Event Form**: A form for users to add new events. Currently, users can only select images from a provided set.
-- **[Backend](https://github.com/atulkkale/event-verse-backend)**: A simple Node.js backend manages event data using the file system module.
+- **[Backend](https://github.com/atulkkale/event-verse-backend)**: A simple Node.js backend manages event data using the file system module. Due to Render's free hosting plan, the backend of Event Verse may take up to 60 seconds or more to load after periods of inactivity.
 
 ## Technologies Used
 
@@ -66,6 +66,8 @@ http://localhost:5173
 
 Check out the live version of the Event Verse:
 [Event Verse on Vercel](https://event-verse-app.vercel.app/)
+
+`* Note: Due to Render's free hosting plan, the backend of Event Verse may take up to 60 seconds or more to load after periods of inactivity. *`
 
 ## Screenshots
 
