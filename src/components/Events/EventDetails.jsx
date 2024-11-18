@@ -92,7 +92,7 @@ export default function EventDetails() {
           </nav>
         </header>
         <div id="event-details-content">
-          <img src={`${import.meta.env.API_URL}/${data.image}`} alt={data.title} />
+          <img src={`${import.meta.env.VITE_API_URL}/${data.image}`} alt={data.title} />
           <div id="event-details-info">
             <div>
               <p id="event-details-location">{data.location}</p>
